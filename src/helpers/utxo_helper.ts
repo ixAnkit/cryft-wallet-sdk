@@ -1,10 +1,10 @@
-import { UTXOSet as AVMUTXOSet } from 'avalanche/dist/apis/avm/utxos';
-import { UTXOSet as PlatformUTXOSet } from 'avalanche/dist/apis/platformvm/utxos';
-import { UTXOSet as EVMUTXOSet } from 'avalanche/dist/apis/evm/utxos';
+import { UTXOSet as AVMUTXOSet } from '@cryft-labs/cryftjs/dist/apis/avm/utxos';
+import { UTXOSet as PlatformUTXOSet } from '@cryft-labs/cryftjs/dist/apis/platformvm/utxos';
+import { UTXOSet as EVMUTXOSet } from '@cryft-labs/cryftjs/dist/apis/evm/utxos';
 import { xChain, cChain, pChain } from '@/Network/network';
 import { ExportChainsC, ExportChainsP, ExportChainsX } from '@/Wallet/types';
 import { chainIdFromAlias } from '@/Network/helpers/idFromAlias';
-import { GetStakeResponse } from 'avalanche/dist/apis/platformvm/interfaces';
+import { GetStakeResponse } from '@cryft-labs/cryftjs/dist/apis/platformvm/interfaces';
 
 /**
  *

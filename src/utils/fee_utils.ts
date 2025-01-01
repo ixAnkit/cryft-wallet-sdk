@@ -1,5 +1,5 @@
 import { pChain, xChain } from '@/Network/network';
-import { BN } from 'avalanche';
+import { BN } from '@cryft-labs/cryftjs';
 
 /**
  * Returns the transaction fee for X chain.

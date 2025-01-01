@@ -1,6 +1,6 @@
-import { KeyPair as AVMKeyPair } from 'avalanche/dist/apis/avm';
+import { KeyPair as AVMKeyPair } from '@cryft-labs/cryftjs/dist/apis/avm';
 
-import { BN } from 'avalanche';
+import { BN } from '@cryft-labs/cryftjs';
 
 import { MnemonicWallet } from '@/Wallet/MnemonicWallet';
 import { SingletonWallet } from '@/Wallet/SingletonWallet';
@@ -88,7 +88,7 @@ export interface ERC20Balance {
 export interface ILedgerAppConfig {
     version: string;
     commit: string;
-    name: 'Avalanche';
+    name: 'cryft';
 }
 
 export type WalletEventType = 'addressChanged' | 'balanceChangedX' | 'balanceChangedP' | 'balanceChangedC' | 'hd_ready';

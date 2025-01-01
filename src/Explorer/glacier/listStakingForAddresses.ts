@@ -3,7 +3,7 @@ import { ListStakingParams } from './models';
 import { splitToParts } from './utils';
 import { filterDuplicateGlacierTxs } from './filterDuplicateGlacierTxs';
 import Glacier from './Glacier';
-import { Network, PChainId, PChainTransaction, SortOrder } from '@avalabs/glacier-sdk';
+import { Network, PChainId, PChainTransaction, SortOrder } from '@cryft-labs/glacier-sdk';
 
 export async function listStakingForAddresses(addrs: string[], netID: number) {
     if (!addrs.length) return [];

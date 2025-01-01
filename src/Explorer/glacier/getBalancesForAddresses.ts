@@ -1,12 +1,12 @@
 import { GetBalancesParams } from './models';
 import Glacier from './Glacier';
-import { BN } from 'avalanche';
+import { BN } from '@cryft-labs/crftjs';
 import { splitToParts } from './utils';
 import {
     ListPChainBalancesResponse,
     ListXChainBalancesResponse,
     ListCChainAtomicBalancesResponse,
-} from '@avalabs/glacier-sdk';
+} from '@cryft-labs/glacier-sdk';
 
 export async function getBalancesForAddresses(config: GetBalancesParams) {
     // Max number of addresses glacier accepts

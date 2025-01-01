@@ -1,5 +1,5 @@
 import { OrteliusUTXO } from '@/Explorer';
-import { BN } from 'avalanche';
+import { BN } from '@cryft-labs/cryftjs';
 import { iHistoryBaseTxTokenOwners } from '@/History';
 import { strip0x } from '@/utils';
 

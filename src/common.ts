@@ -1,4 +1,4 @@
-import { BinTools } from 'avalanche';
+import { BinTools } from '@cryft-labs/cryftjs';
 
 export const bintools = BinTools.getInstance();
 

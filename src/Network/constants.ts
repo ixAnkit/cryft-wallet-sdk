@@ -1,14 +1,14 @@
 import { NetworkConfig } from './types';
-import { Defaults } from 'avalanche/dist/utils';
+import { Defaults } from '@cryft-labs/cryftjs/dist/utils';
 import { getRpcC, getRpcP, getRpcX } from './helpers/rpcFromConfig';
 
 export const MainnetConfig: NetworkConfig = {
-    rawUrl: 'https://api.avax.network',
+    rawUrl: 'https://api.cryft.network',
     apiProtocol: 'https',
-    apiIp: 'api.avax.network',
+    apiIp: 'api.cryft.network',
     apiPort: 443,
-    explorerURL: 'https://explorerapi.avax.network',
-    explorerSiteURL: 'https://explorer.avax.network',
+    explorerURL: 'https://explorerapi.cryft.network',
+    explorerSiteURL: 'https://explorer.cryft.network',
     networkID: 1,
     // @ts-ignore
     xChainID: Defaults.network[1]['X']['blockchainID'],
@@ -30,12 +30,12 @@ export const MainnetConfig: NetworkConfig = {
 };
 
 export const TestnetConfig: NetworkConfig = {
-    rawUrl: 'https://api.avax-test.network',
+    rawUrl: 'https://api.cryft-test.network',
     apiProtocol: 'https',
-    apiIp: 'api.avax-test.network',
+    apiIp: 'api.cryft-test.network',
     apiPort: 443,
-    explorerURL: 'https://explorerapi.avax-test.network',
-    explorerSiteURL: 'https://explorer.avax-test.network',
+    explorerURL: 'https://explorerapi.cryft-test.network',
+    explorerSiteURL: 'https://explorer.cryft-test.network',
     networkID: 5,
     // @ts-ignore
     xChainID: Defaults.network[5]['X']['blockchainID'],

@@ -1,6 +1,6 @@
 import { splitToParts } from './utils';
 import Glacier from './Glacier';
-import { Network } from '@avalabs/glacier-sdk';
+import { Network } from '@cryft-labs/glacier-sdk';
 import { isFujiNetworkId, isMainnetNetworkId } from '@/Network';
 
 export async function listChainsForAddresses(addrs: string[], netID: number) {

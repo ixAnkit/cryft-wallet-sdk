@@ -1,6 +1,6 @@
 import { cChain, ethersProvider, pChain, web3, xChain } from '@/Network/network';
 
-import { BN, Buffer } from 'avalanche';
+import { BN, Buffer } from '@cryft-labs/cryftjs';
 import {
     AVMConstants,
     MinterSet,
@@ -9,13 +9,13 @@ import {
     UTXO as AVMUTXO,
     UTXOSet as AVMUTXOSet,
     UTXOSet,
-} from 'avalanche/dist/apis/avm';
+} from '@cryft-labs/cryftjs/dist/apis/avm';
 
-import { PayloadBase } from 'avalanche/dist/utils';
-import { OutputOwners } from 'avalanche/dist/common';
-import { PlatformVMConstants, UTXOSet as PlatformUTXOSet } from 'avalanche/dist/apis/platformvm';
+import { PayloadBase } from '@cryft-labs/cryftjs/dist/utils';
+import { OutputOwners } from '@cryft-labs/cryftjs/dist/common';
+import { PlatformVMConstants, UTXOSet as PlatformUTXOSet } from '@cryft-labs/cryftjs/dist/apis/platformvm';
 
-import { EVMConstants } from 'avalanche/dist/apis/evm';
+import { EVMConstants } from '@cryft-labs/cryftjs/dist/apis/evm';
 
 import { FeeMarketEIP1559Transaction, Transaction } from '@ethereumjs/tx';
 import EthereumjsCommon from '@ethereumjs/common';

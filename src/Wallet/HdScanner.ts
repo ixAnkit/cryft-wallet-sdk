@@ -1,10 +1,10 @@
 import * as bip32 from 'bip32';
-import { getPreferredHRP } from 'avalanche/dist/utils';
+import { getPreferredHRP } from '@cryft-labs/cryftjs/dist/utils';
 import { activeNetwork, avalanche, pChain, xChain } from '@/Network/network';
-import { KeyPair as AVMKeyPair, KeyChain as AVMKeyChain } from 'avalanche/dist/apis/avm/keychain';
-import { KeyChain as PlatformKeyChain, KeyPair as PlatformKeyPair } from 'avalanche/dist/apis/platformvm';
+import { KeyPair as AVMKeyPair, KeyChain as AVMKeyChain } from '@cryft-labs/cryftjs/dist/apis/avm/keychain';
+import { KeyChain as PlatformKeyChain, KeyPair as PlatformKeyPair } from '@cryft-labs/cryftjs/dist/apis/platformvm';
 import { HdChainType } from './types';
-import { Buffer } from 'avalanche';
+import { Buffer } from '@cryft-labs/cryftjs';
 import {
     DERIVATION_SLEEP_INTERVAL,
     HD_SCAN_GAP_SIZE,

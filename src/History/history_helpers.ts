@@ -1,6 +1,6 @@
 import { OrteliusUTXO } from '@/Explorer';
 import { iHistoryNftFamilyBalance } from '@/History/types';
-import { AVMConstants } from 'avalanche/dist/apis/avm';
+import { AVMConstants } from '@cryft-labs/cryftjs/dist/apis/avm';
 import { parseNftPayload } from '@/utils';
 import { isOutputOwner } from '@/Explorer/ortelius/utxoUtils';
 

@@ -1,4 +1,4 @@
-import { BN } from 'avalanche';
+import { BN } from '@cryft-labs/cryftjs';
 import { ChainIdType } from '@/common';
 import {
     UniversalTx,
